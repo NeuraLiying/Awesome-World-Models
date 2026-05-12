@@ -1,0 +1,12 @@
+# Awesome World Models
+
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+node_modules/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
