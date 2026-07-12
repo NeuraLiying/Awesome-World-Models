@@ -2,7 +2,7 @@
 
 A comprehensive, categorized survey of World Model research — covering foundations, video generation, autonomous driving, robotics, gaming, LLMs, 3D/4D generation, physics simulation, efficiency, and more. **This repository is actively maintained and continuously updated with the latest papers.**
 
-**Total: 340+ papers | Last updated: 2026-05-13**
+**Total: 340+ papers | Last updated: 2026-07-13**
 
 ---
 
@@ -111,6 +111,7 @@ Standardized benchmarks, datasets, and evaluation frameworks for world models.
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
+| A Roadmap to Build World Models for Robot Policy Evaluation | [2607.02642](https://arxiv.org/abs/2607.02642) | / | 2026 | arXiv | 324k Rollouts, 7 Video WMs, Policy Eval |
 | WorldArena: Evaluating Perception and Functional Utility of Embodied World Models | [2602.08971](https://arxiv.org/abs/2602.08971) | [GitHub](https://github.com/tsinghua-fib-lab/WorldArena) | 2026 | arXiv | Embodied, EWMScore |
 | Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test | [2601.04137](https://arxiv.org/abs/2601.04137) | [Website](https://unigen-x.github.io/unifolm-world-model-action.github.io/) | 2026 | arXiv | Turing Test, 22 Metrics |
 | RoboWM-Bench: Evaluating World Models in Robotic Manipulation | [2604.19092](https://arxiv.org/abs/2604.19092) | [Website](https://robowm-bench.github.io/RoboWM-Bench/) | 2026 | arXiv | Manipulation, Physical Plausibility |
@@ -280,6 +281,8 @@ World models for playable environments, game generation, and interactive simulat
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
+| AlayaWorld: Long-Horizon and Playable Video World Generation | [2607.06291](https://arxiv.org/abs/2607.06291) | / | 2026 | arXiv | Full-Stack, Playable, Real-Time |
+| MoWorld: A Flash World Model | [2607.06216](https://arxiv.org/abs/2607.06216) | / | 2026 | arXiv | 50 FPS, 3D-Native Data, NPU |
 | Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory | [2604.08995](https://arxiv.org/abs/2604.08995) | [Website](https://matrix-game-v3.github.io/) | 2026 | arXiv | Streaming, Long-Horizon Memory |
 | Solaris: Building a Multiplayer Video World Model in Minecraft | [2602.22208](https://arxiv.org/abs/2602.22208) | [Website](https://solaris-wm.github.io/) | 2026 | arXiv | Multiplayer, Minecraft |
 | INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling | [2604.07209](https://arxiv.org/abs/2604.07209) | [GitHub](https://github.com/inspatio/inspatio-world) | 2026 | arXiv | 4D Simulation, Real-Time |
@@ -342,19 +345,18 @@ World models for driving simulation, scene generation, and end-to-end planning.
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
-| Dream4Drive: Rethinking Driving World Model | / | / | 2026 | ICLR 26 | 3D-Aware Synthesis, Perception |
+| Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks (Dream4Drive) | [2510.19195](https://arxiv.org/abs/2510.19195) | / | 2026 | ICLR 26 | 3D-Aware Synthesis, Perception |
 | X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving | [2603.19979](https://arxiv.org/abs/2603.19979) | [Website](https://x-world-1.github.io) | 2026 | arXiv | Multi-Camera, XPENG |
 | FAR-Drive: Frame-AutoRegressive Video Generation in Closed-Loop Autonomous Driving | [2603.14938](https://arxiv.org/abs/2603.14938) | / | 2026 | arXiv | Frame-AR, Closed-Loop |
-| DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving | / | / | 2026 | ICLR 26 | Benchmark, Driving WM |
 | X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference | [2604.20289](https://arxiv.org/abs/2604.20289) | [Website](https://x-cache-1.github.io/) | 2026 | arXiv | Cross-Chunk Caching, XPENG |
 | WorldRFT: Latent World Model Planning with Reinforcement Fine-Tuning | [2512.19133](https://arxiv.org/abs/2512.19133) | / | 2025 | AAAI 26 | RL Fine-Tuning, Latent Planning |
 | FutureX: Enhance End-to-End AD via Latent Chain-of-Thought World Model | [2512.11226](https://arxiv.org/abs/2512.11226) | / | 2025 | arXiv | Chain-of-Thought, Latent WM |
 | GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control | [2505.22421](https://arxiv.org/abs/2505.22421) | [GitHub](https://github.com/antonioo-c/GeoDrive) | 2025 | arXiv | 3D Geometry, Action Control |
 | ProphetDWM: A Driving World Model for Rolling Out Future Actions and Videos | [2505.18650](https://arxiv.org/abs/2505.18650) | / | 2025 | arXiv | Joint Action-Video, POMDP |
-| Epona: Autoregressive Diffusion World Model for Autonomous Driving | / | / | 2025 | ICCV 25 | AR-Diffusion, Driving |
+| Epona: Autoregressive Diffusion World Model for Autonomous Driving | [2506.24113](https://arxiv.org/abs/2506.24113) | [GitHub](https://github.com/Kevin-thu/Epona) | 2025 | ICCV 25 | AR-Diffusion, Spatiotemporal Decomposition, Driving |
 | World4Drive: End-to-End Autonomous Driving via Intention-aware Physical Latent World Model | [2507.00603](https://arxiv.org/abs/2507.00603) | [GitHub](https://github.com/ucaszyp/World4Drive) | 2025 | ICCV 25 | Intention-Aware, End-to-End |
-| HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation | / | / | 2025 | ICCV 25 | Unified 3D, Understanding+Gen |
-| Navigation World Model | / | / | 2025 | CVPR 25 Award Candidate | Navigation, Controllable Video |
+| HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation | [2501.14729](https://arxiv.org/abs/2501.14729) | [GitHub](https://github.com/lmd0311/hermes) | 2025 | ICCV 25 | Unified 3D, Understanding+Gen |
+| Navigation World Models | [2412.03572](https://arxiv.org/abs/2412.03572) | [Website](https://www.amirbar.net/nwm/) | 2025 | CVPR 25 Oral (Award Candidate) | Navigation, Controllable Video |
 | Think2Drive: Efficient RL by Thinking in Latent World Model for Autonomous Driving | [2402.16720](https://arxiv.org/abs/2402.16720) | / | 2024 | ECCV 24 | Model-Based RL, CARLA-v2 |
 | DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving | [2405.04390](https://arxiv.org/abs/2405.04390) | / | 2024 | CVPR 24 | 4D Pre-Training, Memory SSM |
 | DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT | [2412.19505](https://arxiv.org/abs/2412.19505) | [GitHub](https://github.com/YvanYin/DrivingWorld) | 2024 | arXiv | Spatiotemporal GPT, Long Video |
@@ -444,7 +446,6 @@ Language models as world models — probing emergent representations and enablin
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
 | WebWorld: A Large-Scale World Model for Web Agent Training | [2602.14721](https://arxiv.org/abs/2602.14721) | [GitHub](https://github.com/QwenLM/WebWorld) | 2026 | arXiv | Web Agent, Large-Scale WM |
-| Text2World: Benchmarking Large Language Models for Symbolic World Model Generation | [2502.13092](https://arxiv.org/abs/2502.13092) | [Website](https://text-to-world.github.io/) | 2025 | ACL 25 | PDDL, Symbolic WM |
 | Semantic World Models | [2510.19818](https://arxiv.org/abs/2510.19818) | [Website](https://weirdlabuw.github.io/swm) | 2025 | arXiv | VLM-as-WM, Language Output |
 | DyMo: World Modelling Improves Language Model Agents | [2506.02918](https://arxiv.org/abs/2506.02918) | / | 2025 | arXiv | Dynamics Modelling, LLM Agent |
 | World Model on Million-Length Video and Language with RingAttention (LWM) | [2402.08268](https://arxiv.org/abs/2402.08268) | [GitHub](https://github.com/LargeWorldModel/LWM) | 2024 | arXiv | Million-Token, Video-Language |
@@ -498,7 +499,7 @@ Generating and exploring 3D/4D worlds — from single images to unbounded scenes
 | TeleWorld: Towards Dynamic Multimodal Synthesis with a 4D World Model | [2601.00051](https://arxiv.org/abs/2601.00051) | / | 2025 | arXiv | 4D WM, Real-Time Multimodal |
 | 3D4D: An Interactive, Editable, 4D World Model via 3D Video Generation | [2511.08536](https://arxiv.org/abs/2511.08536) | [Website](https://yunhonghe1021.github.io/NOVA/) | 2025 | AAAI 26 Demo | Interactive 4D, WebGL |
 | DeepVerse: 4D Autoregressive Video Generation as a World Model | [2506.01103](https://arxiv.org/abs/2506.01103) | [Website](https://sotamak1r.github.io/deepverse/) | 2025 | arXiv | 4D AR, Geometric Prediction |
-| GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control | / | / | 2025 | CVPR 25 | 3D-Consistent, Camera Control |
+| GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control | [2503.03751](https://arxiv.org/abs/2503.03751) | [GitHub](https://github.com/nv-tlabs/GEN3C) | 2025 | CVPR 25 | 3D-Consistent, Camera Control |
 
 ---
 
@@ -662,8 +663,8 @@ Techniques for maintaining consistency and memory over extended temporal horizon
 | ViewRope: Geometry-Aware Rotary Position Embedding for Consistent Video World Model | [2602.07854](https://arxiv.org/abs/2602.07854) | / | 2026 | arXiv | Geometry-Aware RoPE |
 | UCM: Unifying Camera Control and Memory with Time-Aware Positional Encoding Warping | [2602.22960](https://arxiv.org/abs/2602.22960) | [Website](https://humanaigc.github.io/ucm-webpage/) | 2026 | arXiv | Camera Control, Memory |
 | WORLDMEM: Long-term Consistent World Simulation with Memory | [2504.12369](https://arxiv.org/abs/2504.12369) | [Website](https://xizaoqu.github.io/worldmem/) | 2025 | arXiv | Long-Term Memory, Consistency |
-| Long-Context State-Space Video World Models | / | / | 2025 | ICCV 25 | SSM, Constant Inference Cost |
-| Learning Transformer-Based World Models with Contrastive Predictive Coding | / | / | 2025 | ICLR 25 | Contrastive Prediction, Transformer |
+| Long-Context State-Space Video World Models | [2505.20171](https://arxiv.org/abs/2505.20171) | [Website](https://ryanpo.com/ssm_wm/) | 2025 | ICCV 25 | SSM, Long-Term Memory |
+| Learning Transformer-Based World Models with Contrastive Predictive Coding (TWISTER) | [2503.04416](https://arxiv.org/abs/2503.04416) | [GitHub](https://github.com/burchim/TWISTER) | 2025 | ICLR 25 | Action-Conditioned CPC, Contrastive Prediction |
 
 ---
 
@@ -700,7 +701,18 @@ Theoretical foundations, interpretability, and understanding of what world model
 
 ---
 
-## Contributing
+## Verification Methodology
+
+Every entry is checked for link/title correctness (2026-07-13):
+
+- **arXiv IDs**: each ID was opened on `arxiv.org/abs/<id>` to confirm it resolves to the titled paper. Papers previously missing an ID had theirs recovered from the abstract page — *Navigation World Models* (2412.03572), *HERMES* (2501.14729), *Epona* (2506.24113), *GEN3C* (2503.03751), *Dream4Drive* (2510.19195), *Long-Context State-Space Video World Models* (2505.20171), and *TWISTER* (2503.04416).
+- **GitHub links**: the official repo is linked where one is named on the abstract page or project site; `/` means no public code was found (not a gap to fabricate).
+- **De-duplication**: removed duplicate rows — *DrivingGen* (was in both §3.4 and §8.4; kept in §3.4) and *Text2World* (was in both §3.6 and §10.3; kept in §3.6).
+- **Title drift fixed**: *Navigation World Model* → *Navigation World Models* (plural, per the paper); *Dream4Drive: Rethinking Driving World Model* → its actual title *Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks*.
+
+If a link has rotted since, please open an issue/PR.
+
+
 
 If you find missing papers or errors, please open an issue or submit a pull request.
 

@@ -1,6 +1,8 @@
 # Awesome World Models
 
 .DS_Store
+# verification/survey working data — not published
+_work/
 *.swp
 *.swo
 *~
