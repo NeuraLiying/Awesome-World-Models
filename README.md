@@ -377,6 +377,7 @@ World models for manipulation, navigation, and embodied decision-making.
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
+| ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts | [2607.28993](https://arxiv.org/abs/2607.28993) | [GitHub](https://github.com/Thu-WangMX/ST-WAM-Semantic-Temporal-World-Action-Model) | 2026 | arXiv | World Action Model, Visual Robustness |
 | Ctrl-World: A Controllable Generative World Model for Robot Manipulation | [2510.10125](https://arxiv.org/abs/2510.10125) | [GitHub](https://github.com/Robert-gyj/Ctrl-World) | 2025 | ICLR 26 | Multi-View, Controllable |
 | IRASim: A Fine-Grained World Model for Robot Manipulation | [2406.14540](https://arxiv.org/abs/2406.14540) | [Website](https://gen-irasim.github.io) | 2024 | ICCV 25 | Frame-Level Alignment, DiT |
 | AVID: Adapting Video Diffusion Models to World Models | [2410.12822](https://arxiv.org/abs/2410.12822) | / | 2024 | RLJ 25 | Video Diffusion Adapter, Frozen |
