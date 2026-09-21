@@ -345,6 +345,7 @@ World models for driving simulation, scene generation, and end-to-end planning.
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
+| DriveVA: Video Action Models are Zero-Shot Drivers | [ECCV paper](https://link.springer.com/chapter/10.1007/978-3-032-37718-0_19) | [GitHub](https://github.com/xiaomi-mlab/DriveVA) | 2026 | ECCV 26 | Video-Action, Joint Planning, Zero-Shot Transfer |
 | Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks (Dream4Drive) | [2510.19195](https://arxiv.org/abs/2510.19195) | / | 2026 | ICLR 26 | 3D-Aware Synthesis, Perception |
 | X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving | [2603.19979](https://arxiv.org/abs/2603.19979) | [Website](https://x-world-1.github.io) | 2026 | arXiv | Multi-Camera, XPENG |
 | FAR-Drive: Frame-AutoRegressive Video Generation in Closed-Loop Autonomous Driving | [2603.14938](https://arxiv.org/abs/2603.14938) | / | 2026 | arXiv | Frame-AR, Closed-Loop |
