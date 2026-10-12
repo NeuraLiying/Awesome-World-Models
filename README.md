@@ -122,6 +122,7 @@ Standardized benchmarks, datasets, and evaluation frameworks for world models.
 
 | Title | arXiv | GitHub | Year | Venue | Keywords |
 |-------|-------|--------|------|-------------|----------|
+| OccStress: Stress-Testing the 4D Occupancy Forecasting Chain | [2512.15621](https://arxiv.org/abs/2512.15621) | [GitHub](https://github.com/InSAI-Lab/OccStress) | 2026 | NeurIPS 26 | Occupancy Forecasting, Robustness, Temporal Evaluation |
 | DrivingGen: Comprehensive Benchmark for Generative Video World Models in AD | [2601.01528](https://arxiv.org/abs/2601.01528) | [Website](https://drivinggen-bench.github.io/) | 2026 | ICLR 26 | Driving, Visual Realism |
 | WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World | [2512.10958](https://arxiv.org/abs/2512.10958) | [GitHub](https://github.com/worldbench/WorldLens) | 2025 | arXiv | Driving, Auto-Evaluator |
 | SimWorld: A Unified Benchmark for Simulator-Conditioned Scene Generation | [2503.13952](https://arxiv.org/abs/2503.13952) | [GitHub](https://github.com/Li-Zn-H/SimWorld) | 2025 | arXiv | Simulator Conditioning, Data Gen |
