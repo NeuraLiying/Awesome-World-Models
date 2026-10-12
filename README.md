@@ -2,7 +2,7 @@
 
 A comprehensive, categorized survey of World Model research — covering foundations, video generation, autonomous driving, robotics, gaming, LLMs, 3D/4D generation, physics simulation, efficiency, and more. **This repository is actively maintained and continuously updated with the latest papers.**
 
-**Total: 340+ papers | Last updated: 2026-07-13**
+**Total: 340+ papers | Last updated: 2026-10-13**
 
 ---
 
